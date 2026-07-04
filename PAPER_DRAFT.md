@@ -220,8 +220,11 @@ the demand-side question we take up next.
 
 ## Open materials
 
-Query frame, parsed dataset (CC BY 4.0), code (build/crawl/analyze), and the versioned AI-crawler
-and schema codebooks are released. Raw HTML is not redistributed.
+All materials are released at **https://github.com/Axion-Deep-Labs/ai-readiness-2026**: the query
+frame and parsed dataset (149-, 487-, and 766-site crawls; CC BY 4.0), the code (build/crawl/analyze;
+MIT), the full protocol and preregistration, and the versioned AI-crawler and schema codebooks
+(CODEBOOK.md). Raw HTML is not redistributed. All reported figures reproduce with
+`python3 analyze.py data/crawl_confirmatory_766.jsonl sample_meta.csv`.
 
 ## References
 

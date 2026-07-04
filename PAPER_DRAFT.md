@@ -13,12 +13,12 @@ structured data, AI crawlers, robots.txt, local business, measurement study
 **JEL classification:** L86 (Information and Internet Services), M31 (Marketing), O33 (Technological
 Change: Choices and Consequences)
 
-> Status note: the numbers below are from the n=766 confirmatory-scale crawl (2026-07-02, 10
-> verticals, 15 cities). They replicated across the 149-, 487-, and 766-site runs with figures
-> stable to within a couple of points, which is the central robustness result. The analysis is
-> preregistered on OSF (osf_prereg.md); this working paper is posted to SSRN. A future version may
-> extend the sample toward >= 1,000 reachable sites. No figure here is a placeholder; each is a real
-> measured value.
+> Status note: the numbers below are from a large-scale exploratory crawl (n=766; 2026-07-02, 10
+> verticals, 15 cities), stable across the 149-, 487-, and 766-site runs (the central robustness
+> result). These figures are exploratory. A confirmatory crawl of >= 1,000 reachable sites, with a
+> frozen analysis plan, is preregistered on OSF at https://osf.io/2q5er/ (plan: osf_prereg.md);
+> this working paper is posted to SSRN as the exploratory precursor. No figure here is
+> a placeholder; each is a real measured value.
 
 ---
 
@@ -31,7 +31,7 @@ define AI-readiness operationally as adoption of these three public signals, and
 a stratified sample of local-business websites (n=766, 10 verticals, 15 cities) drawn from
 OpenStreetMap. Among reachable sites, adoption of the structured-data signals designed to make a
 business machine-identifiable is low: review/AggregateRating markup appears on 9% of homepages
-(95% CI 7-11) and FAQ markup on 4% (3-6). The modal business scores 2 of 10 on a pre-registered
+(95% CI 7-11) and FAQ markup on 4% (3-6). The modal business scores 2 of 10 on a pre-specified
 AI-Readiness index (42% of reachable sites): it does not block AI crawlers, but exposes no schema,
 reviews markup, or llms.txt. Readiness varies sharply by vertical: accounting firms show 0% review
 and 0% Person markup (0 of 27; Wilson 95% CI 0-12 for each), non-overlapping with legal firms
@@ -62,7 +62,7 @@ llms.txt, and homepage schema.org markup. Where we write "AI-readiness," we mean
 three signals, and nothing broader is claimed.
 
 Contributions: (1) the first stratified, multi-vertical measurement of AI-crawler permission,
-llms.txt adoption, and schema readiness together; (2) a pre-registered operational AI-Readiness
+llms.txt adoption, and schema readiness together; (2) a pre-specified operational AI-Readiness
 index; (3) an open, reproducible, zero-cost methodology and dataset.
 
 ## 2. Background and related work
@@ -82,14 +82,15 @@ index; (3) an open, reproducible, zero-cost methodology and dataset.
 
 ## 3. Methods
 
-Full protocol and pre-registration: PROTOCOL.md, osf_prereg.md.
+Full protocol and pre-registration: PROTOCOL.md, osf_prereg.md; OSF registration of the confirmatory
+wave at https://osf.io/2q5er/.
 
 - **Frame.** OpenStreetMap POIs carrying a `website` tag, selected by vertical (local-service
   categories) and five geographic strata (metro, mid, small, tourism, university).
 - **Measurement (public HTTP only).** Per site: robots.txt (AI-crawler permission, versioned bot
   list); /llms.txt (validated presence: not an HTML/redirect stub, >= 40 bytes, markdown structure;
   plus provenance signature); homepage JSON-LD schema.org @type extraction; platform fingerprint.
-- **AI-Readiness index (pre-registered, 0-10):** allows AI crawlers +2; valid llms.txt +2; identity
+- **AI-Readiness index (pre-specified, 0-10):** allows AI crawlers +2; valid llms.txt +2; identity
   schema +2; review schema +2; FAQ schema +1; Person schema +1. The index is an *operational
   benchmark*, not a validated latent construct: the weights encode a simple editorial judgment
   (permission and the three highest-value structured signals count double; the two secondary schema

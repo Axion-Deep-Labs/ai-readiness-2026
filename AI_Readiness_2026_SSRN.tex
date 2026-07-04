@@ -34,7 +34,7 @@ measure them across a stratified sample of local-business websites ($n=766$, 10 
 cities) drawn from OpenStreetMap. Among reachable sites, adoption of the structured-data signals
 designed to make a business machine-identifiable is low: review/AggregateRating markup appears on
 9\% of homepages (95\% CI 7--11) and FAQ markup on 4\% (3--6). The modal business scores 2 of 10 on
-a pre-registered AI-Readiness index (42\% of reachable sites): it does not block AI crawlers, but
+a pre-specified AI-Readiness index (42\% of reachable sites): it does not block AI crawlers, but
 exposes no schema, reviews markup, or llms.txt. Readiness varies sharply by vertical: accounting
 firms show 0\% review and 0\% Person markup (0 of 27; Wilson 95\% CI 0--12 for each),
 non-overlapping with legal firms (review 26\%, CI 18--35; Person 31\%, CI 22--41); accounting is the
@@ -73,7 +73,7 @@ is claimed.
 
 \medskip
 \noindent\textbf{Contributions.} (1) The first stratified, multi-vertical measurement of AI-crawler
-permission, llms.txt adoption, and schema readiness together; (2) a pre-registered operational
+permission, llms.txt adoption, and schema readiness together; (2) a pre-specified operational
 AI-Readiness index; (3) an open, reproducible, zero-cost methodology and dataset.
 
 \section{Background and related work}
@@ -96,7 +96,8 @@ OpenStreetMap provides categorized, geographic local-business coverage used here
 
 \section{Methods}
 
-Full protocol and pre-registration: \texttt{PROTOCOL.md}, \texttt{osf\_prereg.md}.
+Full protocol and pre-registration: \texttt{PROTOCOL.md}, \texttt{osf\_prereg.md}; the confirmatory
+wave is registered on OSF at \url{https://osf.io/2q5er/}.
 
 \begin{itemize}
 \item \textbf{Frame.} OpenStreetMap POIs carrying a \texttt{website} tag, selected by vertical
@@ -105,7 +106,7 @@ Full protocol and pre-registration: \texttt{PROTOCOL.md}, \texttt{osf\_prereg.md
 bot list); /llms.txt (validated presence: not an HTML/redirect stub, $\geq 40$ bytes, markdown
 structure; plus provenance signature); homepage JSON-LD schema.org \texttt{@type} extraction;
 platform fingerprint.
-\item \textbf{AI-Readiness index (pre-registered, 0--10):} allows AI crawlers $+2$; valid llms.txt
+\item \textbf{AI-Readiness index (pre-specified, 0--10):} allows AI crawlers $+2$; valid llms.txt
 $+2$; identity schema $+2$; review schema $+2$; FAQ schema $+1$; Person schema $+1$. The index is an
 \emph{operational benchmark}, not a validated latent construct: the weights encode a simple editorial
 judgment (permission and the three highest-value structured signals count double; the two secondary

@@ -6,7 +6,7 @@ Readiness.*
 
 **Author:** Joshua R. Gutierrez, Axion Deep Labs, Inc. · Contact: hello@axiondeep.com
 **Paper (SSRN):** `AI_Readiness_2026_SSRN.pdf` (this repo) · SSRN link to be added on posting.
-**Preregistration:** `osf_prereg.md` (OSF link to be added on registration).
+**Preregistration:** https://osf.io/2q5er/ — confirmatory ≥1,000-site wave (plan: `osf_prereg.md`). The figures in this repo are the exploratory precursor.
 
 ## What this measures
 

@@ -1,0 +1,22 @@
+Data license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Joshua R. Gutierrez / Axion Deep Labs, Inc.
+
+The dataset in this repository (the files under data/, plus sample_meta.csv and
+seed_wave1.txt) is licensed under the Creative Commons Attribution 4.0
+International License. You are free to share and adapt the material for any
+purpose, including commercially, provided you give appropriate credit, link to
+the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+  Gutierrez, J. R. (2026). The State of AI-Readiness on Business Websites (2026).
+  Axion Deep Labs. Data released under CC BY 4.0.
+
+The dataset contains only parsed, machine-derived fields from public HTTP
+responses (homepage HTML, robots.txt, llms.txt) of publicly listed businesses.
+Raw HTML is not redistributed. Domains are public identifiers from OpenStreetMap.
+
+The code (*.py files) is licensed separately under the MIT License; see LICENSE.

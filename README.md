@@ -5,7 +5,7 @@ Open data, code, and protocol for the working paper *The State of AI-Readiness o
 Readiness.*
 
 **Author:** Joshua R. Gutierrez, Axion Deep Labs, Inc. · Contact: hello@axiondeep.com
-**Paper (SSRN):** `AI_Readiness_2026_SSRN.pdf` (this repo) · SSRN link to be added on posting.
+**Paper (SSRN):** `AI_Readiness_2026_SSRN.pdf` (this repo) · SSRN abstract 7057078 — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7057078 (submitted 2026-07-04, under moderation review).
 **Preregistration:** https://osf.io/2q5er/ — confirmatory ≥1,000-site wave (plan: `osf_prereg.md`). The figures in this repo are the exploratory precursor.
 
 ## What this measures

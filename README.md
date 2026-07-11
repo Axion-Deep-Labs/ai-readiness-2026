@@ -1,5 +1,7 @@
 # The State of AI-Readiness on Business Websites (2026)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21312372.svg)](https://doi.org/10.5281/zenodo.21312372)
+
 Open data, code, and protocol for the working paper *The State of AI-Readiness on Business Websites
 (2026): A Large-Scale Measurement of AI-Crawler Permission, llms.txt Adoption, and Structured-Data
 Readiness.*
